@@ -1,0 +1,35 @@
+# Laravel-specific
+/vendor                     # Laravel's dependencies
+/storage/*.key              # Sensitive keys in the storage folder
+.env                        # Environment configuration
+.env.*                      # Additional environment files (e.g., `.env.production`)
+.phpunit.cache              # PHPUnit cache
+.phpunit.result.cache       # PHPUnit result cache
+Homestead.json              # Homestead configuration
+Homestead.yaml              # Homestead configuration
+error_log                   # Error log files
+
+# Node.js-specific
+/node_modules               # Node.js dependencies
+npm-debug.log*              # NPM debug log files
+yarn-error.log*             # Yarn error log files
+
+# Vite-specific
+/public/build               # Built assets (should be generated in production)
+.vite                       # Vite cache folder
+
+# IDE and editor settings
+/.idea                      # PHPStorm/JetBrains IDE settings
+/.vscode                    # VSCode settings
+/.fleet                     # JetBrains Fleet settings
+
+# Temporary and backup files
+/public/hot                 # Hot module replacement file
+/public/storage             # Symlinked storage directory
+*.backup                    # Backup files
+*.log                       # Log files
+
+# System files
+.DS_Store                   # macOS metadata
+Thumbs.db                   # Windows metadata
+node_modules

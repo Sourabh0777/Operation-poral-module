@@ -1,0 +1,14 @@
+[30-Oct-2023 06:03:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/demo03elricktech/public_html/customclear/vendor/composer/platform_check.php on line 24
+[30-Oct-2023 06:04:38 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/demo03elricktech/public_html/customclear/vendor/composer/platform_check.php on line 24
+[30-Oct-2023 06:04:40 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/demo03elricktech/public_html/customclear/vendor/composer/platform_check.php on line 24
+[30-Oct-2023 06:04:42 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/demo03elricktech/public_html/customclear/vendor/composer/platform_check.php on line 24
+[31-Jan-2024 05:21:18 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/sdemo08elric/public_html/assignment/app/Http/Controllers/Marketingcontroller.php on line 13
+[31-Jan-2024 06:27:31 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/sdemo08elric/public_html/assignment/storage/framework/views/1d18a79e7a8f4a3b715d23b05f815a4e.php on line 76
+[15-Feb-2024 06:54:24 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 22
+[15-Feb-2024 06:54:27 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 22
+[15-Feb-2024 06:54:27 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 22
+[15-Feb-2024 06:54:27 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 22
+[24-May-2024 05:26:54 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 43
+[24-Jul-2024 19:49:03 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266342400 bytes) in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 26
+[24-Jul-2024 19:49:23 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266342400 bytes) in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 26
+[24-Jul-2024 19:49:38 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266342400 bytes) in /home/sdemo08elric/public_html/assignment/app/Helpers.php on line 26
