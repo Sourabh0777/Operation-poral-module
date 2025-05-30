@@ -4,6 +4,10 @@
    label{
        color:#000;
    }
+ 
+.note-editable { background-color: white; color: black; }
+
+.note-editable { background-color: white !important; color: black !important; }
 </style>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/2.1.0/css/dataTables.dataTables.css">
@@ -264,7 +268,7 @@
           <input type="hidden" name="id" id="id">
        <div class="card card-warning">
         <div class="card-header">
-          <h3 class="card-title">Edit Job</h3>
+          <h3 class="card-title">Edit Job1</h3>
         </div>
         <!-- /.card-header -->
         <div class="card-body">

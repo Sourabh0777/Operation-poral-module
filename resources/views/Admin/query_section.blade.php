@@ -37,7 +37,7 @@
              <th>posted_by </th>    
                        
              <th>title</th> 
-             <th>ticket_message</th>
+             <th>ticket_message</th>0
              <th>ticket_status</th>    
              <th>Action</th>                       
              

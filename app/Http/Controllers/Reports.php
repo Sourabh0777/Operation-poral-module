@@ -47,7 +47,7 @@ class Reports extends Controller
          $data['emp'] =  User::whereIn('emp_type',['Writer','QC','TL'])->with(['Employeeprofile'])->get();
          
       }
-      if(Auth::user()->emp_type=='QC'){
+      if(Auth::user()->emp_type=='QC' || Auth::user()->emp_type=='Admin'){
          $data['emp'] =  User::where('parent_id',Auth::user()->id)->with(['Employeeprofile'])->get();
      
       }    
@@ -62,7 +62,7 @@ class Reports extends Controller
          $data['job_work'] =  DB::table('jobworks')->whereNotIn('status',['Rejected'])->whereIn('jobtype',['Fresh','Rework'])->get();
          
       }
-      if(Auth::user()->emp_type=='QC'){
+      if(Auth::user()->emp_type=='QC' || Auth::user()->emp_type=='Admin'){
          $get_user_network         = get_user_network(Auth::user());
          $project_under_my_network = DB::table('jobassigns')->whereIn('user_id',$get_user_network)->where('status','<>','Finished')->get();
 
@@ -80,7 +80,7 @@ class Reports extends Controller
          $data['job_work'] =  DB::table('jobworks')->whereNotIn('status',['Rejected'])->whereIn('jobtype',['Demo'])->get();
          
       }
-      if(Auth::user()->emp_type=='QC'){
+      if(Auth::user()->emp_type=='QC' || Auth::user()->emp_type=='Admin'){
          $get_user_network         = get_user_network(Auth::user());
          $project_under_my_network = DB::table('jobassigns')->whereIn('user_id',$get_user_network)->where('status','<>','Finished')->get();
 
@@ -241,7 +241,10 @@ class Reports extends Controller
 
    public function query_section(){
       $data['users'] = Auth::user(); 
+      //print_r($data['users']);exit;
       $data['tickets'] = DB::table('tickets')->where('ticket_status','Open')->get();
+
+      //print_r($data['tickets']);exit;
       return view('Admin.query_section',$data);
    }
 

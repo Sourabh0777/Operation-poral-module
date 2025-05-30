@@ -36,7 +36,12 @@ function getJobId($id){
     return Jobwork::find($id)->jobnumber;
 }
 function getUsername($id){
-    return User::find($id)->name;
+    //return User::find($id)->name;
+    $user_id_exist = User::where('id', $id)->first();
+        if(!$user_id_exist){
+            return '';
+        }
+        return $user_id_exist->name;
 }
 function getUserParentname($id){
     // parent_id
